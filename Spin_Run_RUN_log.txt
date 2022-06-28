@@ -1,0 +1,95 @@
+
+06/28 11:16:19: Launching 'app' on Xiaomi Redmi 6A.
+Install successfully finished in 6 s 963 ms.
+$ adb shell am start -n "ragingcasino.realdog.spinmoney.boomcasino.onlinegames/ragingcasino.realdog.spinmoney.boomcasino.onlinegames.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 7689 on device 'xiaomi-redmi_6a-b992d88d7d2b'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/ino.onlinegame: The ClassLoaderContext is a special shared library.
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+W/HMSSDK_PushPreferences: get new sharedPreferences failed,start to get from context. 
+I/FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+I/FirebaseInitProvider: FirebaseApp initialization successful
+I/AGConnectProvider: AGConnectInitializeProvider#onCreate
+I/AGConnectInstance: AGConnectInstance#initialize
+I/ServiceRegistrarParser: getServices
+I/ServiceRegistrarParser: services:0
+I/HMSSDK_HMSPackageManager: enter checkHmsIsSpoof
+I/TetheringManager: registerTetheringEventCallback:ragingcasino.realdog.spinmoney.boomcasino.onlinegames
+D/WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+V/OneSignal: setAppId called with id: 72718e80-5f8e-43bc-b5d0-2a62cde78337 changing id from: null
+W/OneSignal: appId set, but please call initWithContext(appContext) with Application context to complete OneSignal init!
+D/OneSignal: Adding a task to the pending queue with ID: 1
+D/OneSignal: startPendingTasks with task queue quantity: 1
+I/HMSSDK_ReadApkFileUtil: verifyMDMSignatureV3 verify successful!
+D/OneSignal: OneSignal InAppMessageTracker initInfluencedTypeFromCache: OSChannelTracker{tag=iam_id, influenceType=UNATTRIBUTED, indirectIds=null, directId=null}
+D/OneSignal: OneSignal NotificationTracker initInfluencedTypeFromCache: OSChannelTracker{tag=notification_id, influenceType=UNATTRIBUTED, indirectIds=null, directId=null}
+D/OneSignal: OneSignal getUnattributedUniqueOutcomeEventsSentByChannel: null
+V/OneSignal: initWithContext called with: ragingcasino.realdog.spinmoney.boomcasino.onlinegames.InitApp@bdd0552
+V/OneSignal: Starting OneSignal initialization!
+V/OneSignal: No class found, not setting up OSRemoteNotificationReceivedHandler
+V/OneSignal: OneSignal SDK initialization delayed, waiting for remote params.
+D/OneSignal: Starting request to get Android parameters.
+D/OneSignal: OneSignalRestClient: Making request to: https://api.onesignal.com/apps/72718e80-5f8e-43bc-b5d0-2a62cde78337/android_params.js
+I/HMSSDK_HMSPackageManager: check hms state: 2
+I/HMSSDK_HMSPackageManager: aidlService pkgName: com.huawei.hwid
+I/HMSSDK_HMSPackageManager: Enter getHMSPackageNameForMultiService
+I/HMSSDK_HMSPackageManager: <initHmsPackageInfoForMultiService> Succeed to find HMS apk: com.huawei.hwid version: 60501302
+D/OneSignal: Attempted to clean 6 month old IAM data, but none exists!
+W/SQLiteLog: (28) double-quoted string literal: "notification"
+D/OneSignal: Retrieved IAMs from DB redisplayedInAppMessages: []
+I/OneSignal: Last Pending Task has ran, shutting down
+I/WebViewFactory: Loading com.android.webview version 92.0.4515.159 (code 451515900)
+I/ino.onlinegame: The ClassLoaderContext is a special shared library.
+I/cr_WVCFactoryProvider: Loaded version=92.0.4515.159 minSdkVersion=21 isBundle=false multiprocess=true packageId=2
+V/OneSignal: OneSignalRestClient: After con.getResponseCode to: https://api.onesignal.com/apps/72718e80-5f8e-43bc-b5d0-2a62cde78337/android_params.js
+D/OneSignal: OneSignalRestClient: Successfully finished request to: https://api.onesignal.com/apps/72718e80-5f8e-43bc-b5d0-2a62cde78337/android_params.js
+D/OneSignal: OneSignalRestClient: GET RECEIVED JSON: {"awl_list":{},"chnl_lst":[],"outcomes":{"direct":{"enabled":false},"indirect":{"notification_attribution":{"minutes_since_displayed":60,"limit":10},"enabled":false},"unattributed":{"enabled":false}},"receive_receipts_enable":false}
+D/OneSignal: OneSignalRestClient: Response has etag of W/"9fe04970cbcf9a1e5458fc27e8dc4dff" so caching the response.
+D/OneSignal: OneSignal saveInfluenceParams: InfluenceParams{indirectNotificationAttributionWindow=60, notificationLimit=10, indirectIAMAttributionWindow=1440, iamLimit=10, directEnabled=false, indirectEnabled=false, unattributedEnabled=false}
+D/OneSignal: reassignDelayedInitParams with appContext: ragingcasino.realdog.spinmoney.boomcasino.onlinegames.InitApp@bdd0552
+V/OneSignal: setAppId called with id: 72718e80-5f8e-43bc-b5d0-2a62cde78337 changing id from: null
+V/OneSignal: Starting OneSignal initialization!
+V/OneSignal: No class found, not setting up OSRemoteNotificationReceivedHandler
+D/OneSignal: OneSignal handleActivityLifecycleHandler inForeground: false
+D/OneSignal: App id set for first time:  72718e80-5f8e-43bc-b5d0-2a62cde78337
+D/OneSignal: initWithCachedInAppMessages: null
+I/OneSignal: Location permissions not added on AndroidManifest file
+D/OneSignal: LocationController sendAndClearPromptHandlers from non prompt flow
+D/OneSignal: registerUser:registerForPushFired:false, locationFired: true, remoteParams: com.onesignal.OneSignalRemoteParams$2@e39c83b, appId: 72718e80-5f8e-43bc-b5d0-2a62cde78337
+D/OneSignal: registerUser not possible
+E/OneSignal: Missing Google Project number!
+    Please enter a Google Project number / Sender ID on under App Settings > Android > Configuration on the OneSignal dashboard.
+D/OneSignal: registerForPushToken completed with id: null status: -6
+D/OneSignal: registerUser:registerForPushFired:true, locationFired: true, remoteParams: com.onesignal.OneSignalRemoteParams$2@e39c83b, appId: 72718e80-5f8e-43bc-b5d0-2a62cde78337
+I/cr_VariationsUtils: Failed reading seed file "/data/user/0/ragingcasino.realdog.spinmoney.boomcasino.onlinegames/app_webview/variations_seed_new"
+V/OneSignal: OneSignal SDK initialization done.
+I/cr_VariationsUtils: Failed reading seed file "/data/user/0/ragingcasino.realdog.spinmoney.boomcasino.onlinegames/app_webview/variations_seed"
+D/OneSignal: startPendingTasks with task queue quantity: 0
+I/cr_VariationsUtils: Requesting new seed from IVariationsSeedServer
+I/cr_LibraryLoader: Successfully loaded native library
+W/ino.onlinegame: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+W/ino.onlinegame: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+W/ino.onlinegame: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+I/cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms.
+D/OneSignal: registerUserTask calling readyToUpdate
+Connected to process 7779 on device 'xiaomi-redmi_6a-b992d88d7d2b'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/cr_WebViewApkApp: Launched version=92.0.4515.159 minSdkVersion=21 isBundle=false processName=com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+I/cr_ChildProcessService: Creating new ChildProcessService pid=7779
+I/cr_LibraryLoader: Successfully loaded native library
+W/ocessService0:: Accessing hidden field Ljava/util/Collections$SynchronizedCollection;->mutex:Ljava/lang/Object; (greylist-max-o, reflection, denied)
+W/ocessService0:: Accessing hidden method Ljava/util/Collections$SynchronizedSet;-><init>(Ljava/util/Set;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+W/ocessService0:: Accessing hidden method Ljava/util/Collections$SynchronizedCollection;-><init>(Ljava/util/Collection;Ljava/lang/Object;)V (greylist-max-o, reflection, denied)
+I/cr_CachingUmaRecorder: Flushed 1 samples from 1 histograms.
+W/SystemServiceRegistry: No service published for: uimode
+E/chromium: [ERROR:tile_manager.cc(821)] WARNING: tile memory limits exceeded, some content may not draw
+I/chatty: uid=99312(u0_i9312) Compositor identical 10 lines
+E/chromium: [ERROR:tile_manager.cc(821)] WARNING: tile memory limits exceeded, some content may not draw
+E/chromium: [ERROR:tile_manager.cc(821)] WARNING: tile memory limits exceeded, some content may not draw
+I/chatty: uid=99312(u0_i9312) Compositor identical 4 lines
+E/chromium: [ERROR:tile_manager.cc(821)] WARNING: tile memory limits exceeded, some content may not draw
+E/chromium: [ERROR:tile_manager.cc(821)] WARNING: tile memory limits exceeded, some content may not draw
+E/chromium: [ERROR:tile_manager.cc(821)] WARNING: tile memory limits exceeded, some content may not draw

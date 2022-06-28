@@ -1,0 +1,90 @@
+2022-06-28 11:10:22.492 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: setAppId called with id: 72718e80-5f8e-43bc-b5d0-2a62cde78337 changing id from: null
+2022-06-28 11:10:22.492 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames W/OneSignal: appId set, but please call initWithContext(appContext) with Application context to complete OneSignal init!
+2022-06-28 11:10:22.506 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: Adding a task to the pending queue with ID: 1
+2022-06-28 11:10:22.506 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: startPendingTasks with task queue quantity: 1
+2022-06-28 11:10:22.509 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal InAppMessageTracker initInfluencedTypeFromCache: OSChannelTracker{tag=iam_id, influenceType=UNATTRIBUTED, indirectIds=null, directId=null}
+2022-06-28 11:10:22.509 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal NotificationTracker initInfluencedTypeFromCache: OSChannelTracker{tag=notification_id, influenceType=UNATTRIBUTED, indirectIds=null, directId=null}
+2022-06-28 11:10:22.510 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal getUnattributedUniqueOutcomeEventsSentByChannel: null
+2022-06-28 11:10:22.513 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: initWithContext called with: ragingcasino.realdog.spinmoney.boomcasino.onlinegames.InitApp@2cf05dd
+2022-06-28 11:10:22.513 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: Starting OneSignal initialization!
+2022-06-28 11:10:22.518 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: No class found, not setting up OSRemoteNotificationReceivedHandler
+2022-06-28 11:10:22.518 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: OneSignal SDK initialization delayed, waiting for remote params.
+2022-06-28 11:10:22.519 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: Starting request to get Android parameters.
+2022-06-28 11:10:22.647 5747-5804/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignalRestClient: Making request to: https://api.onesignal.com/apps/72718e80-5f8e-43bc-b5d0-2a62cde78337/android_params.js
+2022-06-28 11:10:22.754 5747-5798/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: Attempted to clean 6 month old IAM data, but none exists!
+2022-06-28 11:10:22.770 5747-5797/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: Retrieved IAMs from DB redisplayedInAppMessages: []
+2022-06-28 11:10:22.770 5747-5797/ragingcasino.realdog.spinmoney.boomcasino.onlinegames I/OneSignal: Last Pending Task has ran, shutting down
+2022-06-28 11:10:23.381 5747-5804/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: OneSignalRestClient: After con.getResponseCode to: https://api.onesignal.com/apps/72718e80-5f8e-43bc-b5d0-2a62cde78337/android_params.js
+2022-06-28 11:10:23.381 5747-5804/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignalRestClient: Successfully finished request to: https://api.onesignal.com/apps/72718e80-5f8e-43bc-b5d0-2a62cde78337/android_params.js
+2022-06-28 11:10:23.386 5747-5804/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignalRestClient: GET RECEIVED JSON: {"awl_list":{},"chnl_lst":[],"outcomes":{"direct":{"enabled":false},"indirect":{"notification_attribution":{"minutes_since_displayed":60,"limit":10},"enabled":false},"unattributed":{"enabled":false}},"receive_receipts_enable":false}
+2022-06-28 11:10:23.386 5747-5804/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignalRestClient: Response has etag of W/"9fe04970cbcf9a1e5458fc27e8dc4dff" so caching the response.
+2022-06-28 11:10:23.416 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal saveInfluenceParams: InfluenceParams{indirectNotificationAttributionWindow=60, notificationLimit=10, indirectIAMAttributionWindow=1440, iamLimit=10, directEnabled=false, indirectEnabled=false, unattributedEnabled=false}
+2022-06-28 11:10:23.417 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: reassignDelayedInitParams with appContext: ragingcasino.realdog.spinmoney.boomcasino.onlinegames.InitApp@2cf05dd
+2022-06-28 11:10:23.417 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: setAppId called with id: 72718e80-5f8e-43bc-b5d0-2a62cde78337 changing id from: null
+2022-06-28 11:10:23.417 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: Starting OneSignal initialization!
+2022-06-28 11:10:23.490 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: No class found, not setting up OSRemoteNotificationReceivedHandler
+2022-06-28 11:10:23.515 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal handleActivityLifecycleHandler inForeground: false
+2022-06-28 11:10:23.596 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: App id set for first time:  72718e80-5f8e-43bc-b5d0-2a62cde78337
+2022-06-28 11:10:23.715 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: initWithCachedInAppMessages: null
+2022-06-28 11:10:23.722 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames I/OneSignal: Location permissions not added on AndroidManifest file
+2022-06-28 11:10:23.722 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: LocationController sendAndClearPromptHandlers from non prompt flow
+2022-06-28 11:10:23.729 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: registerUser:registerForPushFired:false, locationFired: true, remoteParams: com.onesignal.OneSignalRemoteParams$2@e47d09c, appId: 72718e80-5f8e-43bc-b5d0-2a62cde78337
+2022-06-28 11:10:23.730 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: registerUser not possible
+2022-06-28 11:10:23.747 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames E/OneSignal: Missing Google Project number!
+    Please enter a Google Project number / Sender ID on under App Settings > Android > Configuration on the OneSignal dashboard.
+2022-06-28 11:10:23.747 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: registerForPushToken completed with id: null status: -6
+2022-06-28 11:10:23.748 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: registerUser:registerForPushFired:true, locationFired: true, remoteParams: com.onesignal.OneSignalRemoteParams$2@e47d09c, appId: 72718e80-5f8e-43bc-b5d0-2a62cde78337
+2022-06-28 11:10:23.755 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: OneSignal SDK initialization done.
+2022-06-28 11:10:23.755 5747-5832/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: startPendingTasks with task queue quantity: 0
+2022-06-28 11:10:24.055 5747-5863/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: registerUserTask calling readyToUpdate
+2022-06-28 11:10:24.877 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: onActivityResumed: ragingcasino.realdog.spinmoney.boomcasino.onlinegames.MainActivity@50e6c38
+2022-06-28 11:10:24.878 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: curActivity is NOW: ragingcasino.realdog.spinmoney.boomcasino.onlinegames.MainActivity:ragingcasino.realdog.spinmoney.boomcasino.onlinegames.MainActivity@50e6c38
+2022-06-28 11:10:24.878 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: ActivityLifecycleHandler handleFocus, nextResumeIsFirstActivity: true
+2022-06-28 11:10:24.878 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: ActivityLifecycleHandler reset background state, call app focus
+2022-06-28 11:10:24.878 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OSFocusHandler running onAppFocus
+2022-06-28 11:10:24.878 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: Application on focus
+2022-06-28 11:10:24.884 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: Application foregrounded focus time: 4227751684
+2022-06-28 11:10:24.884 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: isPastOnSessionTime currentTimeMillis: 1656403824884 lastSessionTime: -31000 difference: 1656403855884
+2022-06-28 11:10:24.884 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: Starting new session with appEntryState: APP_OPEN
+2022-06-28 11:10:24.886 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal cleanOutcomes for session
+2022-06-28 11:10:24.886 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal save unattributedUniqueOutcomeEvents: []
+2022-06-28 11:10:24.887 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal SessionManager restartSessionIfNeeded with entryAction: APP_OPEN
+     channelTrackers: [OSChannelTracker{tag=notification_id, influenceType=UNATTRIBUTED, indirectIds=null, directId=null}, OSChannelTracker{tag=iam_id, influenceType=UNATTRIBUTED, indirectIds=null, directId=null}]
+2022-06-28 11:10:24.887 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal ChannelTracker getLastReceivedIds lastChannelObjectReceived: []
+2022-06-28 11:10:24.887 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal SessionManager restartSessionIfNeeded lastIds: []
+2022-06-28 11:10:24.887 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal ChannelTracker getLastReceivedIds lastChannelObjectReceived: []
+2022-06-28 11:10:24.887 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal SessionManager restartSessionIfNeeded lastIds: []
+2022-06-28 11:10:24.888 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignal SessionManager sendSessionEndingWithInfluences with influences: []
+2022-06-28 11:10:24.888 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: Last session time set to: 1656403824888
+2022-06-28 11:10:24.888 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: initWithCachedInAppMessages: null
+2022-06-28 11:10:24.891 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames I/OneSignal: Location permissions not added on AndroidManifest file
+2022-06-28 11:10:24.891 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: LocationController sendAndClearPromptHandlers from non prompt flow
+2022-06-28 11:10:24.899 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: registerUser:registerForPushFired:true, locationFired: true, remoteParams: com.onesignal.OneSignalRemoteParams$2@e47d09c, appId: 72718e80-5f8e-43bc-b5d0-2a62cde78337
+2022-06-28 11:10:24.900 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames E/OneSignal: Missing Google Project number!
+    Please enter a Google Project number / Sender ID on under App Settings > Android > Configuration on the OneSignal dashboard.
+2022-06-28 11:10:24.900 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: registerForPushToken completed with id: null status: -6
+2022-06-28 11:10:24.901 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: registerUser:registerForPushFired:true, locationFired: true, remoteParams: com.onesignal.OneSignalRemoteParams$2@e47d09c, appId: 72718e80-5f8e-43bc-b5d0-2a62cde78337
+2022-06-28 11:10:24.910 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: LocationController scheduleUpdate not possible, location permission not enabled
+2022-06-28 11:10:24.910 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OSSyncService cancel background sync
+2022-06-28 11:10:24.942 5747-5918/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: registerUserTask calling readyToUpdate
+2022-06-28 11:10:24.952 5747-5920/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: registerUserTask calling readyToUpdate
+2022-06-28 11:10:25.684 5747-5944/ragingcasino.realdog.spinmoney.boomcasino.onlinegames I/OneSignal: Restoring notifications
+2022-06-28 11:10:25.703 5747-5944/ragingcasino.realdog.spinmoney.boomcasino.onlinegames I/OneSignal: Querying DB for notifications to restore: created_time > 1655799025 AND dismissed = 0 AND opened = 0 AND is_summary = 0 AND expire_time > 1656403825
+2022-06-28 11:10:29.703 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: Configuration Orientation Change: LANDSCAPE (2) on activity: ragingcasino.realdog.spinmoney.boomcasino.onlinegames.MainActivity@50e6c38
+2022-06-28 11:10:29.747 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: ActivityLifecycleHandler Handling lost focus
+2022-06-28 11:10:29.778 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: Application stopped focus time: 4227751684 timeElapsed: 5
+2022-06-28 11:10:29.827 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: FocusTimeProcessorUnattributed:saveUnsentActiveData with lastFocusTimeInfluences: [SessionInfluence{influenceChannel=iam, influenceType=DISABLED, ids=null}, SessionInfluence{influenceChannel=notification, influenceType=DISABLED, ids=null}]
+2022-06-28 11:10:29.827 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: FocusTimeProcessorUnattributed:getUnsentActiveTime: 0
+2022-06-28 11:10:29.828 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: FocusTimeProcessorUnattributed:saveUnsentActiveTime: 5
+2022-06-28 11:10:29.871 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: ActivityLifecycleHandler handleFocus, nextResumeIsFirstActivity: false
+2022-06-28 11:10:29.871 5747-5747/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: ActivityLifecycleHandler cancel background lost focus worker
+2022-06-28 11:10:30.381 5747-5862/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: UserStateSynchronizer internalSyncUserState from session call: true jsonBody: {"app_id":"72718e80-5f8e-43bc-b5d0-2a62cde78337","device_os":"11","timezone":10800,"timezone_id":"Europe\/Minsk","language":"ru","sdk":"040702","sdk_type":"native","android_package":"ragingcasino.realdog.spinmoney.boomcasino.onlinegames","device_model":"Redmi 6A","game_version":2,"net_type":0,"rooted":true,"device_type":1,"notification_types":-6}
+2022-06-28 11:10:30.543 5747-5973/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignalRestClient: Making request to: https://api.onesignal.com/players
+2022-06-28 11:10:30.619 5747-5973/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignalRestClient: POST SEND JSON: {"app_id":"72718e80-5f8e-43bc-b5d0-2a62cde78337","device_os":"11","timezone":10800,"timezone_id":"Europe\/Minsk","language":"ru","sdk":"040702","sdk_type":"native","android_package":"ragingcasino.realdog.spinmoney.boomcasino.onlinegames","device_model":"Redmi 6A","game_version":2,"net_type":0,"rooted":true,"device_type":1,"notification_types":-6}
+2022-06-28 11:10:30.822 5747-5973/ragingcasino.realdog.spinmoney.boomcasino.onlinegames V/OneSignal: OneSignalRestClient: After con.getResponseCode to: https://api.onesignal.com/players
+2022-06-28 11:10:30.829 5747-5973/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignalRestClient: Successfully finished request to: https://api.onesignal.com/players
+2022-06-28 11:10:30.887 5747-5973/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: OneSignalRestClient: POST RECEIVED JSON: {"success":true,"id":"afeeb594-5c70-41ec-83f8-01b3c62c797b"}
+2022-06-28 11:10:30.889 5747-5974/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: doCreateOrNewSession:response: {"success":true,"id":"afeeb594-5c70-41ec-83f8-01b3c62c797b"}
+2022-06-28 11:10:30.894 5747-5775/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/SharedPreferencesImpl: Time required to fsync /data/user/0/ragingcasino.realdog.spinmoney.boomcasino.onlinegames/shared_prefs/OneSignal.xml: [<1: 0, <2: 0, <4: 0, <8: 1, <16: 2, <32: 1, <64: 2, <128: 0, <256: 1, <512: 1, <1024: 0, <2048: 0, <4096: 0, <8192: 0, <16384: 0, >=16384: 0]
+2022-06-28 11:10:30.965 5747-5974/ragingcasino.realdog.spinmoney.boomcasino.onlinegames I/OneSignal: Device registered, UserId = afeeb594-5c70-41ec-83f8-01b3c62c797b
+2022-06-28 11:10:35.970 5747-5862/ragingcasino.realdog.spinmoney.boomcasino.onlinegames D/OneSignal: UserStateSynchronizer internalSyncUserState from session call: false jsonBody: null
